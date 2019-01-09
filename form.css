@@ -1,0 +1,123 @@
+body{
+	background: url(../dist/img/download.jpg)no-repeat 0px 0px;
+     background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -ms-background-size:cover;
+      min-height:auto;
+}
+
+.outerwrapper{
+	width:1200px;
+	height: auto;
+	margin: auto;
+
+
+}
+
+.login-cover{
+	width:600px;
+	height: auto;
+	margin: auto;
+	border: thin solid #F1F1F1;
+	margin-top: 100px;
+	padding: 5px;
+	background-color: #3AE2CE;
+}
+
+.login-header{
+	width:400px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.login-header h4{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+}
+.login-form{
+	width:400px;
+	height: auto;
+	margin: auto;
+	margin-bottom: 20px;
+}
+input[type="text"]{
+	width:99%;
+	height: 40px;
+	margin: auto;
+	font-family: Open Sans;
+}
+
+input[type="text"]:active{
+	width:99%;
+	height: 40px;
+	margin: auto;
+	font-family: Open Sans;
+	background-color: #FFF8DC;
+	border: thin solid #87CEFA;
+}
+input[type="text"]:hover{
+	width:99%;
+	height: 40px;
+	margin: auto;
+	font-family: Open Sans;
+	background-color: #FFF8DC;
+	border: thin solid #E6E6FA;
+}
+
+input[type="password"]{
+	width:99%;
+	height: 40px;
+	margin: auto;
+	font-family: Open Sans;
+}
+input[type="password"]:active{
+	width:99%;
+	height: 40px;
+	margin: auto;
+	font-family: Open Sans;
+	background-color: #FFF8DC;
+	border: thin solid #87CEFA;
+}
+
+input[type="password"]:hover{
+	width:99%;
+	height: 40px;
+	margin: auto;
+	font-family: Open Sans;
+	background-color: #FFF8DC;
+	border: thin solid #E6E6FA;
+}
+input[type="submit"]{
+	width:100%;
+	height: 40px;
+	margin: auto;
+	background-color: #00CED1;
+	border: thin solid #00CED1;
+	color: #FFF;
+	cursor: pointer;
+	font-family: Open Sans;
+}
+
+input[type="submit"]:hover{
+	width:100%;
+	height: 40px;
+	margin: auto;
+	background-color: #87CEFA;
+	border: thin solid #87CEFA;
+}
+a {
+	color: #2F4F4F;
+}
+a:hover,
+a:active,
+a:focus {
+	outline: none;
+	text-decoration: none;
+	color: black;
+	-webkit-text-decoration-style: solid;
+}
